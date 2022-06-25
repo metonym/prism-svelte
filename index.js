@@ -1,4 +1,4 @@
-const blocks = '(if|else if|await|then|catch|each|html|debug)';
+const blocks = '(if|else if|await|then|catch|each|html|debug|key)';
 
 Prism.languages.svelte = Prism.languages.extend('markup', {
 	each: {
